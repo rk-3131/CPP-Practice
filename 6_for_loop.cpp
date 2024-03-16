@@ -8,5 +8,18 @@ int main(){
         cout<<i<<" ";
     }
     
+    // for as special syntax
+    /*
+    for (initialization, condition, increament/decrement){
+        code that we will do
+    }
+    */
+
+   /*
+   if we want to use the for loop for the array then we can use the auto loop
+   for (auto &&variable_name : array_name){
+    cout<<variable_name<<endl;
+   }
+   */
     return 0;
 }

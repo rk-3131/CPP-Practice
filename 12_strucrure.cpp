@@ -11,12 +11,15 @@ struct my_strucure{
 
 
 int main(){
+    // struct my_strucure rk;
+    // It can be initialized as given in the upper section as well as it can also be initialized in the below section as well
+
     my_strucure rk;
     rk.roll_no = 72;
     rk.name = "Radhakrushna Mahadik";
     rk.marks = 100;
 
-    cout<<"name is "<<rk.name<<endl;
+    cout<<"Name is "<<rk.name<<endl;
     cout<<"Roll number is "<<rk.roll_no<<endl;
     cout<<"Marks are "<<rk.marks<<endl;
 

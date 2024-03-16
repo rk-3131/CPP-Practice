@@ -44,16 +44,16 @@ double getSum(double a, double b){
 int main(){
     // cout<<addition(5,4)<<endl;
 
-    // int a = 10;
-    // int b = 20;
+    int a = 10;
+    int b = 20;
 
-    // cout<<"Value of a before swap "<<a<<endl;
-    // cout<<"Value of b before swap "<<b<<endl;
+    cout<<"Value of a before swap "<<a<<endl;
+    cout<<"Value of b before swap "<<b<<endl;
 
-    // swap3(a, b);
+    swap3(a, b);
 
-    // cout<<"Value of a after swap "<<a<<endl;
-    // cout<<"Value of b after swap "<<b<<endl;
+    cout<<"Value of a after swap "<<a<<endl;
+    cout<<"Value of b after swap "<<b<<endl;
 
     cout<<getSum(10,20)<<endl;
     cout<<getSum(10,20,30)<<endl;

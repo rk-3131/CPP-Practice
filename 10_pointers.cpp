@@ -18,6 +18,7 @@ int main(){
     cout<<"Variable p2 has address of "<<p2<<endl;
 
     cout<<"Value of variable a is "<<*(&a)<<" and its memory location is "<<&a<<endl;
+    cout<<"Memory location of the vaiable as is "<<p<<" and value associated at that location is "<<*p<<endl;
 
     int arr [] = {1,2,3,4,5,6,7,8,9};
 
@@ -26,6 +27,7 @@ int main(){
     int *ptr = arr;
     // Here arr does not need to have the referening sympbol as name of the array is itself a address to first element of the array hence we have not used the symbol of &there
 
+    cout<<"Element at the first index of the array is "<<*ptr<<endl;
     for (int i = 0; i < size(arr); i++){
         cout<<"Element at index "<<i<<" is "<<*(ptr + i)<<endl;
     }
