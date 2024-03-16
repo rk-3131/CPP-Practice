@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     // Using malloc to allocate memory for a single integer
-    int* ptr_malloc = (int*)malloc(sizeof(int));
+    int *ptr_malloc = (int*) malloc(sizeof(int));
 
     if (ptr_malloc == nullptr) {
         cout << "Memory allocation failed!" <<endl;
@@ -24,6 +24,7 @@ int main() {
     }
     cout << "Values allocated with calloc: ";
     for (int i = 0; i < 5; ++i) {
+        ptr_calloc[i] = i + 1;
         cout << ptr_calloc[i] << " "; // Outputting the values (initialized to 0)
     }
     cout <<endl;

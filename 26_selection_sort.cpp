@@ -7,6 +7,7 @@ void swap(int arr[], int i, int j){
     arr[i] = arr[j];
     arr[j] = temp;
 }
+
 int main(){
     int arr [] = {8,7,5,3,2,4,6,1,9};
     cout<<"Array before sorting"<<endl;
@@ -32,6 +33,8 @@ int main(){
         swap(arr, maxIndex, j- 1);
 
     }
+
+    // selection_sort(arr);
 
     cout<<"Array after sorting"<<endl;
 

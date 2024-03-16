@@ -70,6 +70,8 @@ int main(){
 
     c1.setA(125);
     c1.setB(225);
+    cout<<"Value of A in base class is "<<c1.getA()<<endl;
+    cout<<"Value of B in base class is "<<c1.getB()<<endl;
     // Here child class object is able to access the elements at the base class also 
     // Hence we can make sure that this is applicable
 
